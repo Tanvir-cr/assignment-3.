@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment 3</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <div>
+        <div>
+            <nav>
+                <div class="navbar text-slate-100">
+                    <div class="navbar-start">
+                      <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </div>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
+                          <li><a class="bg-base-300">Home</a></li>
+                          <li><a class="bg-base-300">About</a></li>
+                          <li><a class="bg-base-300">Pages</a></li>
+                          <li><a class="bg-base-300">Blog</a></li>
+                          <li><a class="bg-base-300">Contact</a></li>
+                        </ul>
+                      </div>
+                      <a class="btn btn-ghost text-xl">Hockey’s</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-red-500">Home</a></li>
+                          <li><a>About</a></li>
+                          <li><a>Pages</a></li>
+                          <li><a>Blog</a></li>
+                          <li><a>Contact</a></li>
+                      </ul>
+                    </div>
+                    <div class="navbar-end">
+                      <a class="btn bg-red-500 tex-weight-400 text-slate-100">Get Ticket</a>
+                    </div>
+                  </div>
+            </nav>
+        </div>
+        <section>
+            <div class="carousel w-full">
+      <div id="slide1" class="carousel-item relative w-full">
+        <img src="Images/1.png" class="w-full h-80" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide4" class="btn btn-circle">❮</a> 
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+      <div id="slide2" class="carousel-item relative w-full">
+        <img src="Images/1.png" class="w-full h-80" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide1" class="btn btn-circle">❮</a> 
+          <a href="#slide3" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+      <div id="slide3" class="carousel-item relative w-full">
+        <img src="Images/1.png" class="w-full h-80" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide2" class="btn btn-circle">❮</a> 
+          <a href="#slide4" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+      <div id="slide4" class="carousel-item relative w-full">
+        <img src="Images/1.png" class="w-full h-80" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide3" class="btn btn-circle">❮</a> 
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+    </div>
+        </section>
+    </div>
+    <section class="text-center m-24 gap-12">
+        <div>
+          <hr><br>
+            <h2 class="text-5xl front-extrabold">Professional Hockeys Club</h2><br>
+        <p>Portage Lake Hockey Club in 1904, one of the first professional hockey clubs. ... professional ice hockey club based in Bratislava, Slovakia. In 2012, they left ...</p>
+        </div><br>
+        <hr>
+        <div class="grid grid-warp grid-cols-1 lg:grid-cols-4">
+            <div class="card w-96">
+                <figure class="px-10 pt-10">
+                    <div class="radial-progress text-red-500" style="--value:87;" role="progressbar">87%</div>
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Prayer Facility</h2>
+                  <p>Every Muslim is expected to pray five times a day and thus access to prayer facilities is of utmost importance to a Muslim traveller.</p>
+                  <div class="card-actions">
+                  </div>
+                </div>
+              </div>
+            <div class="card w-96">
+                <figure class="px-10 pt-10">
+                    <div class="radial-progress text-[#34d399]" style="--value:95;" role="progressbar">95%</div>
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Experienced Coach</h2>
+                  <p>If you describe someone as experienced, you mean that they have been doing a particular job or activity for a long time, and therefore know a lot about it ...</p>
+                  <div class="card-actions">
+                  </div>
+                </div>
+              </div>
+            <div class="card w-96">
+                <figure class="px-10 pt-10">
+                    <div class="radial-progress text-[#facc15]" style="--value:90;" role="progressbar">90%</div>
+                </figure>
+                <div class="card-body items-center text-center ">
+                  <h2 class="card-title">Senior Player</h2>
+                  <p>Senior Player means a player who has played International, provincial, or professional rugby in any jurisdiction in the current or last 3 preceding seasons.</p>
+                  <div class="card-actions">
+                  </div>
+                </div>
+              </div>
+            <div class="card w-96">
+                <figure class="px-10 pt-10">
+                    <div class="radial-progress text-[#164e63]" style="--value:80;" role="progressbar">80%</div>
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Training Ground</h2>
+                  <p>sport an area where people prepare for sporting competitions, with activities primarily concentrating on skills</p>
+                  <div class="card-actions">
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section>
+      <div>
+        <div class="grid grid-warp grid-cols-1 lg:grid-cols-2 justify-center gap-6">
+          <div class="card ">
+            <img class="relative opacity-15" src="Images/2.png" alt="Shoes" />
+            <div class="absolute px-10 pt-16">
+              <h2 class="card-title font-extrabold">Junior Program</h2>
+              <p>The Junior Professional Associate (JPA) program is a unique opportunity to gain entry-level professional experience and first-hand exposure to the challenges...</p>
+              <div class="card-actions">
+                <button class="btn bg-red-500">Register Now!</button>
+              </div>
+            </div>
+          </div>
+          <div class="card ">
+            <img class="relative opacity-15" src="Images/2.png" alt="Shoes" />
+            <div class="absolute px-10 pt-16">
+              <h2 class="card-title font-extrabold">Teenager Program</h2>
+              <p>The Junior Professional Associate (JPA) program is a unique opportunity to gain entry-level professional experience and first-hand exposure to the challenges...</p>
+              <div class="card-actions">
+                <button class="btn bg-red-500">Register Now!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-6">
+          <img class="relative opacity-15 lg:h-80" src="Images/2.png" alt="Shoes" />
+          <div class="absolute px-10 pt-16 lg:pt-52">
+            <h2 class="card-title font-extrabold">Teenager Program</h2>
+            <p>The Junior Professional Associate (JPA) program is a unique opportunity to gain entry-level professional experience and first-hand exposure to the challenges...</p>
+            <div class="card-actions">
+              <button class="btn bg-red-500">Register Now!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      
+    </section>
+</body>
+</html>
